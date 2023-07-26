@@ -1,0 +1,49 @@
+// Import all of Bootstrap's CSS
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font-main: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  --primary: #6cac3a;
+  --accent: #1272ce;
+  --blood: #c61042;
+}
+*,
+div,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  *.img {
+    display: block;
+  }
+  .btn-success {
+    background-color: var(--primary);
+  }
+  .text-primary {
+    color: var(--accent) !important;
+  }
+  .text-success {
+    color: var(--primary) !important;
+  }
+  font-family: var(--font-main);
+  .banner__brand {
+    background-image: url(/public/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    .space__banner {
+      height: 150px;
+    }
+    .container__clicpath {
+      clip-path: circle(100% at 50% 150%);
+    }
+    .separator {
+      width: 0.1em;
+      height: 2em;
+    }
+  }
+}
