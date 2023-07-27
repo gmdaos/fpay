@@ -28,6 +28,10 @@ body {
   .text-success {
     color: var(--primary) !important;
   }
+  .hidden{
+    display: none;
+  }
+
   font-family: var(--font-main);
   .banner__brand {
     background-image: url(/public/banner.png);
